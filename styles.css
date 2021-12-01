@@ -3,6 +3,7 @@
     --primary-color:#00BFA6;
     --link-text-color:white;
     --heading-text-color:#6B7280;
+    --off-white-color:#E5E7EB;
 }
 
 /**typography**/
@@ -86,6 +87,16 @@ margin: 2rem 0rem;
     color: var(--primary-color);
 }
 
+/**section**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.off-white-section{
+    background-color:var(--off-white-color) ;
+}
 
 
 
