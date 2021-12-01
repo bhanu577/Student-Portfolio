@@ -9,6 +9,7 @@
 /**typography**/
 body{
     font-family: 'Inter', sans-serif;
+    margin: 0px;
 }
 /** hr padding**/
 hr{
@@ -20,7 +21,7 @@ margin: 2rem 0rem;
     padding-right: 1rem;
 }
 .container-center{
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -75,11 +76,12 @@ margin: 2rem 0rem;
     padding: 2rem;
 }
 .hyper-img{
-    max-width: 400px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 .hyper .hyper-heading{
+    text-align:center;
  color: var(--heading-text-color);
  padding: 1rem;
 }
@@ -96,6 +98,21 @@ margin: 2rem 0rem;
 }
 .off-white-section{
     background-color:var(--off-white-color) ;
+}
+
+/**footer**/
+.footer{
+background-color: var(--primary-color);
+padding: 2rem;
+color: var(--link-text-color);
+border-top-right-radius: 1rem;
+text-align: center;
+}
+.footer .link{
+    color: var(--link-text-color);
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
 
 
