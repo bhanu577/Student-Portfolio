@@ -9,7 +9,9 @@
 /**typography**/
 body{
     font-family: 'Inter', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 85%;
+    width:100%;
 }
 /** hr padding**/
 hr{
@@ -76,14 +78,15 @@ margin: 2rem 0rem;
     padding: 2rem;
 }
 .hyper-img{
-    max-width: 350px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 }
 .hyper .hyper-heading{
     text-align:center;
  color: var(--heading-text-color);
- padding: 1rem;
+ padding-top: 1rem;
 }
 .hyper .hyper-heading .hyper-inverted{
     color: var(--primary-color);
