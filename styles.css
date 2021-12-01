@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+/**typography**/
+body{
+    font-family: 'Inter', sans-serif;
+}
+/** hr padding**/
+hr{
+margin: 2rem 0rem;
+}
+/**container**/
