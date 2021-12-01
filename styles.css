@@ -2,7 +2,7 @@
 :root{
     --primary-color:#00BFA6;
     --link-text-color:white;
-
+    --heading-text-color:#6B7280;
 }
 
 /**typography**/
@@ -67,6 +67,23 @@ margin: 2rem 0rem;
 }
 .link-active{
     font-weight: bold;
+}
+
+/**header**/
+.hyper{
+    padding: 2rem;
+}
+.hyper-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.hyper .hyper-heading{
+ color: var(--heading-text-color);
+ padding: 1rem;
+}
+.hyper .hyper-heading .hyper-inverted{
+    color: var(--primary-color);
 }
 
 
