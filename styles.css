@@ -17,8 +17,7 @@ margin: 2rem 0rem;
 }
 /**container**/
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding:0rem 1rem;
 }
 .container-center{
     max-width: 600px;
@@ -29,6 +28,7 @@ margin: 2rem 0rem;
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    box-sizing: border-box;
     
 }
 .link-primary{
@@ -45,10 +45,11 @@ margin: 2rem 0rem;
 /**list**/
 .list-decoration{
     list-style: none;
+    padding-inline-start: 0px;
 }
 .list-inline{
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
 }
 
 /**navigation**/
@@ -68,10 +69,15 @@ margin: 2rem 0rem;
     text-align: right;
     margin:0.6rem 1rem;
 }
-.link-active{
+.navigation .link-active{
     font-weight: bold;
 }
-
+@media screen and (max-width :900px){
+    .list-inline{
+    display: inline;
+    padding: 0rem;
+    }
+}
 /**header**/
 .hyper{
     padding: 2rem;
