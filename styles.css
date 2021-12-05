@@ -46,7 +46,7 @@ margin: 2rem 0rem;
 }
 .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
 }
 
@@ -130,6 +130,9 @@ text-align: center;
 }
 .footer .link{
     color: var(--link-text-color);
+}
+.footer-heading{
+    padding: 1rem 0rem;
 }
 .footer ul{
     padding-inline-start: 0px;
