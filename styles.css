@@ -123,7 +123,7 @@ margin: 2rem 0rem;
 /**footer**/
 .footer{
 background-color: var(--primary-color);
-padding: 2rem;
+padding: 1rem;
 color: var(--link-text-color);
 border-top-right-radius: 1rem;
 text-align: center;
@@ -131,8 +131,9 @@ text-align: center;
 .footer .link{
     color: var(--link-text-color);
 }
-.footer-heading{
-    padding: 1rem 0rem;
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
 }
 .footer ul{
     padding-inline-start: 0px;
