@@ -35,14 +35,14 @@ margin: 2rem 0rem;
 /**links**/
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.5rem;
     box-sizing: border-box;
     
 }
 .link-primary{
     background-color: var(--primary-color);
     color: var(--link-text-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 .link-secondary{
     color: var(--primary-color);
